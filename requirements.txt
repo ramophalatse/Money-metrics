@@ -1,0 +1,15 @@
+# Core (offline deterministic engine)
+pyyaml>=6.0
+pytest>=8.0
+
+# Statement parsing (Phase 1 — added when sample formats are known)
+pdfplumber>=0.11      # PDF bank statements
+# csv is stdlib
+
+# Google Sheets I/O (Phase 1 write path)
+google-api-python-client>=2.0
+google-auth>=2.0
+google-auth-oauthlib>=1.0
+
+# Notion Purchase Log (Phase 2) — read via official client
+notion-client>=2.0
